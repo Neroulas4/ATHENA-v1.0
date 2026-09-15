@@ -7,3 +7,7 @@ dependencies = ["openai-agents>=0.3.0", "pydantic>=2.0"]
 
 [project.scripts]
 athena = "athena.app:main"
+
+[tool.setuptools]
+packages = ["athena"]
+package-dir = {"athena" = "."}
